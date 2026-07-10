@@ -1,0 +1,194 @@
+CRITICAL - 2024-11-21 00:37:45 --> ErrorException: Undefined array key "specialization"
+[Method: GET, Route: editPatient/13]
+in APPPATH\Views\edit_patient.php on line 64.
+ 1 APPPATH\Views\edit_patient.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "specialization"', 'C:\\laragon\\www\\FINALL\\app\\Views\\edit_patient.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\edit_patient.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_patient', [], true)
+ 5 APPPATH\Controllers\Patient.php(31): view('edit_patient', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Patient->editPatient('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 00:41:52 --> ErrorException: Undefined variable $doctor
+[Method: GET, Route: patient]
+in APPPATH\Views\patient_mgt.php on line 99.
+ 1 APPPATH\Views\patient_mgt.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctor', 'C:\\laragon\\www\\FINALL\\app\\Views\\patient_mgt.php', 99)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\patient_mgt.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('patient_mgt', [], true)
+ 5 APPPATH\Controllers\Patient.php(20): view('patient_mgt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Patient->patientMgt()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 00:43:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "*"
+[Method: GET, Route: medical-records/%2A]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('medical-records/*')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('medical-records/*')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 00:48:25 --> ErrorException: Undefined variable $doctor
+[Method: GET, Route: appointment/]
+in APPPATH\Views\doctordashboard.php on line 105.
+ 1 APPPATH\Views\doctordashboard.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctor', 'C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php', 105)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('doctordashboard', [], true)
+ 5 APPPATH\Controllers\Appointments.php(29): view('doctordashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 02:54:17 --> ParseError: Unmatched '}'
+[Method: GET, Route: verify]
+in APPPATH\Config\Routes.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 02:54:47 --> ParseError: Unmatched '}'
+[Method: GET, Route: verify]
+in APPPATH\Config\Routes.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:29:04 --> ErrorException: Undefined array key "patient_id"
+[Method: GET, Route: doctordashboard]
+in APPPATH\Views\doctordashboard.php on line 133.
+ 1 APPPATH\Views\doctordashboard.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_id"', 'C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php', 133)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('doctordashboard', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(82): view('doctordashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:29:48 --> ErrorException: Undefined array key "patient_id"
+[Method: GET, Route: doctordashboard]
+in APPPATH\Views\doctordashboard.php on line 130.
+ 1 APPPATH\Views\doctordashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_id"', 'C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\doctordashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('doctordashboard', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(82): view('doctordashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:35:41 --> ErrorException: Undefined variable $doctorNames
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorNames', 'C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:36:45 --> ErrorException: Undefined variable $doctorNames
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorNames', 'C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:37:40 --> ErrorException: Undefined variable $doctorNames
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorNames', 'C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 03:38:23 --> ErrorException: Undefined variable $doctorNames
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorNames', 'C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 04:09:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "medical.php"
+[Method: GET, Route: medical]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('medical.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('medical', [], true)
+ 3 APPPATH\Controllers\MedicalRecordController.php(21): view('medical', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedicalRecordController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicalRecordController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-21 04:20:53 --> ErrorException: Undefined array key "patient_name"
+[Method: GET, Route: medical]
+in APPPATH\Views\medicalrecord.php on line 54.
+ 1 APPPATH\Views\medicalrecord.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_name"', 'C:\\laragon\\www\\FINALL\\app\\Views\\medicalrecord.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINALL\\app\\Views\\medicalrecord.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('medicalrecord', [], true)
+ 5 APPPATH\Controllers\MedicalRecordController.php(21): view('medicalrecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedicalRecordController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicalRecordController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')

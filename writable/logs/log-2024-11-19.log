@@ -1,0 +1,758 @@
+CRITICAL - 2024-11-19 17:09:06 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:09:25 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:10:22 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:11:55 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:14:50 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:21:04 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:21:55 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:22:17 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:22:21 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:34:57 --> ErrorException: Undefined variable $doctors
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctors', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:39:41 --> ErrorException: Undefined variable $Am
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Am', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:41:39 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:41 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:42 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:42 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:43 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:43 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:43 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:44 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 17:42:44 --> ErrorException: Undefined variable $app
+[Method: GET, Route: book-appointment]
+in APPPATH\Views\book_appointment.php on line 114.
+ 1 APPPATH\Views\book_appointment.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php', 114)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\book_appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('book_appointment', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(34): view('book_appointment')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->bookAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+ERROR - 2024-11-19 18:16:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hospital_management`.`appointments`, CONSTRAINT `fk_doctor_id` FOREIGN KEY (`doctor_id`) REFERENCES `doctors` (`id`)) in C:\laragon\www\FINAL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\FINAL\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ap...', 0)
+#1 C:\laragon\www\FINAL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\laragon\www\FINAL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\laragon\www\FINAL\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\laragon\www\FINAL\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\FINAL\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\FINAL\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\FINAL\app\Models\AppointmentModel.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\FINAL\app\Controllers\Dashboard.php(41): App\Models\AppointmentModel->createAppointment(Array)
+#9 C:\laragon\www\FINAL\system\CodeIgniter.php(933): App\Controllers\Dashboard->processAppointment()
+#10 C:\laragon\www\FINAL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\laragon\www\FINAL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\FINAL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\FINAL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\FINAL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\laragon\www\FINAL\system\rewrite.php(44): require_once('C:\\laragon\\www\\...')
+#16 {main}
+CRITICAL - 2024-11-19 18:16:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hospital_management`.`appointments`, CONSTRAINT `fk_doctor_id` FOREIGN KEY (`doctor_id`) REFERENCES `doctors` (`id`))
+[Method: POST, Route: book-appointment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (:patient_id:, :doctor_id:, :appointment_date:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\AppointmentModel.php(33): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(41): App\Models\AppointmentModel->createAppointment([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->processAppointment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:16:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hospital_management`.`appointments`, CONSTRAINT `fk_doctor_id` FOREIGN KEY (`doctor_id`) REFERENCES `doctors` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (\'10\', \'3\', \'2024-11-14T02:16\', \'2024-11-19 18:16:12\', \'2024-11-19 18:16:12\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (\'10\', \'3\', \'2024-11-14T02:16\', \'2024-11-19 18:16:12\', \'2024-11-19 18:16:12\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (:patient_id:, :doctor_id:, :appointment_date:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\AppointmentModel.php(33): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\Dashboard.php(41): App\Models\AppointmentModel->createAppointment([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->processAppointment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:16:12 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hospital_management`.`appointments`, CONSTRAINT `fk_doctor_id` FOREIGN KEY (`doctor_id`) REFERENCES `doctors` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (\'10\', \'3\', \'2024-11-14T02:16\', \'2024-11-19 18:16:12\', \'2024-11-19 18:16:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (\'10\', \'3\', \'2024-11-14T02:16\', \'2024-11-19 18:16:12\', \'2024-11-19 18:16:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (\'10\', \'3\', \'2024-11-14T02:16\', \'2024-11-19 18:16:12\', \'2024-11-19 18:16:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `appointments` (`patient_id`, `doctor_id`, `appointment_date`, `created_at`, `updated_at`) VALUES (:patient_id:, :doctor_id:, :appointment_date:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\AppointmentModel.php(33): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Dashboard.php(41): App\Models\AppointmentModel->createAppointment([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->processAppointment()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:33:11 --> BadMethodCallException: Call to undefined method App\Models\AppointmentModel::getAppointmentsWithPatientName
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Appointments.php(28): CodeIgniter\Model->__call('getAppointmentsWithPatientName', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:37:04 --> BadMethodCallException: Call to undefined method App\Models\AppointmentModel::getAppointmentsWithPatientName
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Appointments.php(28): CodeIgniter\Model->__call('getAppointmentsWithPatientName', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:56:46 --> BadMethodCallException: Call to undefined method App\Models\AppointmentModel::getAppointmentsByDoctor
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('getAppointmentsByDoctor', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:58:29 --> ErrorException: Undefined array key "doctor_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doctor_name"', 'C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 18:58:30 --> ErrorException: Undefined array key "doctor_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doctor_name"', 'C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 19:00:15 --> ErrorException: Undefined array key "doctor_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doctor_name"', 'C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 19:03:36 --> ErrorException: Undefined array key "doctor_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doctor_name"', 'C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 19:05:59 --> ErrorException: Undefined array key "doctor_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doctor_name"', 'C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-19 19:53:53 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 19:55:56 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:18:23 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:29:35 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:33:12 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:37:02 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:38:35 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:39:13 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:39:23 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:43:10 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:46:33 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:52:55 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:55:17 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 20:57:59 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:02:18 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: registerr]
+in APPPATH\Controllers\DoctorController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:04:35 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:15:04 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:19:35 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:27:56 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:28:17 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:29:11 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:29:42 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:38:39 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:39:21 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:39:22 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:40:56 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:41:33 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')
+CRITICAL - 2024-11-19 21:43:52 --> Error: Class "App\Models\DoctorModel" not found
+[Method: POST, Route: doctor/loginn]
+in APPPATH\Controllers\DoctorController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DoctorController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINALL\\public\\index.php')

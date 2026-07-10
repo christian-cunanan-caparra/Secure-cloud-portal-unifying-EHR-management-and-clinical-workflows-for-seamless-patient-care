@@ -1,0 +1,283 @@
+CRITICAL - 2024-11-12 01:10:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editPatient/14]
+in APPPATH\Views\edit_patient.php on line 106.
+ 1 APPPATH\Views\edit_patient.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\FINAL\\app\\Views\\edit_patient.php', 106)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\edit_patient.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_patient', [], true)
+ 5 APPPATH\Controllers\Patient.php(31): view('edit_patient', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Patient->editPatient('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:27:32 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 113.
+ 1 APPPATH\Views\user_view.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:32:06 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 99.
+ 1 APPPATH\Views\user_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 99)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:32:18 --> ErrorException: Undefined variable $ptnt
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 99.
+ 1 APPPATH\Views\user_view.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ptnt', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 99)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:32:26 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 113.
+ 1 APPPATH\Views\user_view.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:32:44 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 113.
+ 1 APPPATH\Views\user_view.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:32:51 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 113.
+ 1 APPPATH\Views\user_view.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 04:46:56 --> ErrorException: Undefined variable $appointmentCount
+[Method: GET, Route: users]
+in APPPATH\Views\user_view.php on line 113.
+ 1 APPPATH\Views\user_view.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $appointmentCount', 'C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(13): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:17:22 --> ErrorException: Undefined variable $ptnt
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointments.php on line 141.
+ 1 APPPATH\Views\appointments.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ptnt', 'C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php', 141)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('appointments', [], true)
+ 5 APPPATH\Controllers\Appointments.php(20): view('appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:46:42 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/15/Confirmed]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('15', 'Confirmed')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:47:42 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: appointments/updateStatus/15/Confirmed]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('15', 'Confirmed')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:47:53 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/15/Confirmed]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('15', 'Confirmed')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:51:31 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/1/Confirmed]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('1', 'Confirmed')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:51:35 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/1/Pending]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('1', 'Pending')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:51:39 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/1/Pending]
+in APPPATH\Controllers\Appointments.php on line 33.
+ 1 APPPATH\Controllers\Appointments.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('1', 'Pending')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:56:07 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointments.php on line 127.
+ 1 APPPATH\Views\appointments.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('appointments', [], true)
+ 5 APPPATH\Controllers\Appointments.php(22): view('appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:56:34 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/1/Cancelled]
+in APPPATH\Controllers\Appointments.php on line 35.
+ 1 APPPATH\Controllers\Appointments.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('1', 'Cancelled')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 05:58:41 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointments/updateStatus/1/Cancelled]
+in APPPATH\Controllers\Appointments.php on line 35.
+ 1 APPPATH\Controllers\Appointments.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Controllers\\Appointments.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->updateStatus('1', 'Cancelled')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 06:12:16 --> ErrorException: Undefined array key "patient_email"
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointments.php on line 143.
+ 1 APPPATH\Views\appointments.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_email"', 'C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('appointments', [], true)
+ 5 APPPATH\Controllers\Appointments.php(14): view('appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 06:12:42 --> ErrorException: Undefined array key "patientEmail"
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointments.php on line 143.
+ 1 APPPATH\Views\appointments.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patientEmail"', 'C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('appointments', [], true)
+ 5 APPPATH\Controllers\Appointments.php(14): view('appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
+CRITICAL - 2024-11-12 06:12:56 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointments.php on line 143.
+ 1 APPPATH\Views\appointments.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\FINAL\\app\\Views\\appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('appointments', [], true)
+ 5 APPPATH\Controllers\Appointments.php(14): view('appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointments->appointments()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointments))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\FINAL\\public\\index.php')
